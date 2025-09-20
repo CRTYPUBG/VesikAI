@@ -15,8 +15,8 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    build: {
-      chunkSizeWarningLimit: 2000, // 2MB sınırına çıkar
-    },
+  build: {
+  chunkSizeWarningLimit: 2000, // 2MB
+  },
   };
 });
